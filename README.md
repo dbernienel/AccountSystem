@@ -2,20 +2,20 @@
 
 ## Install Docker
 
-## run docker 
+## Run Docker 
 
 ```
 docker-compose up 
 ```
 
-## run application 
+## Run application 
 
-## create Member
+## Create Member
 
-## create Account Type
+## Create Account Type
 
 ## Add Transactions for account 
 
-## remove transactions for account
+## Remove Transactions for account
 
-## view account details
+## View Account details
