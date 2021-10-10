@@ -8,14 +8,14 @@
 docker-compose up 
 ```
 
-## Run application 
+## Run Application 
 
 ## Create Member
 
 ## Create Account Type
 
-## Add Transactions for account 
+## Add Transactions for Account 
 
-## Remove Transactions for account
+## Remove Transactions for Account
 
 ## View Account details
