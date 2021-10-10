@@ -1,0 +1,27 @@
+#Basic Spring Boot Config for Oracle
+
+#  spring.datasource.url=jdbc:oracle:thin:@localhost:1521:xe
+#
+#  spring.datasource.username=root
+#  spring.datasource.password=cmpg311
+#  spring.datasource.driver-class-name = oracle.jdbc.driver.OracleDriver
+
+  #hybernate config
+  #spring.jpa.database-platform=org.hibernate.dialect.Oracle10gDialect
+#  spring,jpa.show-sql=true
+#  spring.jpa.properties.hibernate.format_sql=true
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/hr?useSSL=false&allowPublicKeyRetrieval=true&createDatabaseIfNotExist=true&charset=utf8mb4&collation=utf8mb4_unicode_ci
+    username: root
+    password: cmpg311
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    database: mysql
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
